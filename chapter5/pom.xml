@@ -17,6 +17,11 @@
             <version>6.10</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.10</version>
+        </dependency>
     </dependencies>
 
 
