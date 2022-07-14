@@ -31,5 +31,22 @@ public class BasicAnnotation {
         System.out.println("This is running after test");
     }
 
+    @BeforeClass
+    public void beforeClass(){
+        System.out.println("This is running before class");
+    }
 
+    @AfterClass
+    public void afterClass(){
+        System.out.println("This is running after class");
+    }
+
+    @BeforeSuite
+    public void beforeSuite(){
+        System.out.println("This is running before suite");
+    }
+    @AfterSuite
+    public void afterSuite(){
+        System.out.println("This is running after siute");
+    }
 }
